@@ -1,0 +1,19 @@
+name: Demeter
+main: com.mbach231.demeter.Demeter
+version: 1.0
+commands:
+  example:
+    description: Example description
+    usage: /example
+    permission: demeter.example
+    permission-message: You don't have permission to use this command!
+ 
+permissions:
+    demeter.*:
+      description: Give access to all commands
+      children:
+        demeter.example: true
+    demeter.example:
+      description: Example
+      default: op
+    

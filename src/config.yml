@@ -1,0 +1,5 @@
+
+minutes-per-update: 10
+max-food-amount: 100
+
+log-debug: false
